@@ -10,7 +10,7 @@ namespace GitTestApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "";
+            ViewBag.Message = "Is this the new branch?";
 
             return View();
         }

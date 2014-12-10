@@ -10,7 +10,7 @@ namespace GitTestApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "This is to test commits";
+            ViewBag.Message = "";
 
             return View();
         }

@@ -10,21 +10,21 @@ namespace GitTestApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Is this the new branch?";
+            ViewBag.Message = "Index";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Description";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact";
 
             return View();
         }

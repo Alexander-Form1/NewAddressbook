@@ -25,7 +25,6 @@ namespace GitTestApp.Controllers
 
         public ActionResult Contact()
         {
-            //AKs kommentar
             ViewBag.Message = "Contact";
 
             return View();

@@ -10,7 +10,7 @@ namespace GitTestApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Index";
+            ViewBag.Message = "IndexTest";
 
             return View();
         }
